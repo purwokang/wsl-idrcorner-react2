@@ -1,6 +1,10 @@
 import React from 'react';
 
-const Image = () => {
+const Image = (props) => {
+    // console.log(props);
+    if (props.login === false) {
+        props.history.push('/')
+    }
     return (
         <div>
             <h1>IMAGE</h1>
