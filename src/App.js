@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter, Route, Redirect } from 'react-router-dom';
+import { BrowserRouter, Route, } from 'react-router-dom';
 
 import Home from './components/Home';
 import About from './components/About';
@@ -9,7 +9,7 @@ import Navbar from './components/Navbar';
 class App extends Component {
 
   state = {
-    login: false
+    login: true
   }
 
   render() {
